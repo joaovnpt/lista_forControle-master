@@ -5,12 +5,12 @@
     Faça um programa que apresente na tela os números ímpares de 1 até 50.
     */
 
-    //ENTRADA
-
-
-    //PROCESSAMENTO
-
-
-    //SAÍDA
+    let impares = [];
+    for (let i = 0; i < 50; i++) {
+        const num = i;
+        if(num % 2 == 1) impares.push(num);
+        
+    }
+    document.write(impares.join(", "));
 
 </script>
